@@ -1,0 +1,10 @@
+build:
+  version: "2.0"
+cards:
+  message: "Welcome to GoldBank Cards related QA APIs "
+  contactDetails:
+    name: "Suraj Sharma - Developer"
+    email: "suraj.sharma@goldank.com"
+  onCallSupport:
+    - (123) 456-789
+    - (123) 456-789

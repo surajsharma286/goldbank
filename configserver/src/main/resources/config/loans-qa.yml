@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to GoldBank loans related QA APIs "
+  contactDetails:
+    name: "Suraj Sharma - Developer"
+    email: "suraj.sharma@goldank.com"
+  onCallSupport:
+    - (123) 456-789
+    - (123) 456-789

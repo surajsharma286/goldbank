@@ -1,0 +1,38 @@
+services:
+  accounts:
+    image: "surajsharma286/accounts:v1"
+    container_name: accounts-ms
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - "goldbank"
+
+  loans:
+    image: "surajsharma286/loans:v1"
+    container_name: loans-ms
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - "goldbank"
+  cards:
+    image: "surajsharma286/cards:v1"
+    container_name: cards-ms
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - "goldbank"
+networks:
+  goldbank:
+    driver: "bridge"

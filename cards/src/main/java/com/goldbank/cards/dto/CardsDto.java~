@@ -1,0 +1,4 @@
+package com.goldbank.cards.dto;
+
+public class CardsDto {
+}

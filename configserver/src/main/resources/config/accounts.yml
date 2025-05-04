@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to GoldBank accounts related local APIs "
+  contactDetails:
+    name: "Suraj Sharma - Developer"
+    email: "suraj.sharma@goldank.com"
+  onCallSupport:
+    - (123) 456-789
+    - (123) 456-789
